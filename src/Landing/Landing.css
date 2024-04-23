@@ -1,0 +1,106 @@
+.heroContainer {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    background-image: url('../images/heroimg1.png'); /* Set the background image */
+    background-size: cover;
+    background-position: left;
+    align-items: center;
+  }
+  .servicesSection h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:red;
+  }
+  
+.servicesSection p {
+  font-size: 35px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+  .heroContent {
+    text-align: left;
+    color:black;
+    padding: 20px;
+  }
+  
+  .heroContent1 {
+    font-size: 24px;
+  }
+  
+  .heroContent2 {
+    font-size: 18px;
+  }
+  
+  .heroContent3 {
+    font-size: 16px;
+  }
+  
+  .getBtn {
+    padding: 10px 20px;
+    background-color: #0d75e4;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .rectangleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; /* Adjust top margin to create space above the rectangles */
+  }
+  
+  .rectangle {
+    width: 180px;
+    height: 290px;
+    margin: 10px;
+    border-radius: 20px; /* Adjust spacing between rectangles */
+  }
+  
+  .green {
+    background-color: rgb(118, 193, 118);
+  }
+  
+  .blue {
+    background-color: rgb(56, 56, 243);
+  }
+  
+  .red {
+    background-color: red;
+  }
+  .rectangle img {
+    display: block;
+    max-width: 100%; /* Ensure image fits within the rectangle */
+    max-height: 100%; /* Ensure image fits within the rectangle */
+    margin: auto; /* Center the image within the rectangle */
+  }
+  .user.icon {
+    /* Container styles */
+    
+    bottom: 80px; /* Distance from the bottom of the screen */
+    left: -120px; /* Distance from the left of the screen */
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .user.icon img {
+    /* Image styles */
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+  }
+  
+  /* Additional margin styles */
+  .user.icon {
+    margin-top: 20px; /* Adjust top margin for positioning */
+    margin-left: 20px; /* Adjust left margin for positioning */
+  }
+  

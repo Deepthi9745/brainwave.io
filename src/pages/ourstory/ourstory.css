@@ -1,0 +1,98 @@
+.ourStorySection {
+  text-align: center; /* Center align the content */
+}
+
+.storyItemsContainer {
+  display: flex; /* Use flexbox to arrange items in a row */
+  justify-content: center; /* Center items horizontally within the container */
+  align-items: center; /* Center items vertically within the container */
+  margin-top: 20px; /* Optional: Add margin for spacing */
+}
+
+.storyImage {
+  width: 200px; /* Set a fixed width for each image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 40px; 
+}
+.enlargedImage {
+  width: 300px; 
+  height: 70%;
+  margin-top: 40px;
+}
+.enlargmentImage2{
+  width: 200px;
+  height: 50%;
+  margin-top: -150px;
+
+}
+.enlargmentImage3{
+  width:100px;
+  height:50%;
+  margin-top:-150px ;
+}
+.additionalParagraph {
+  text-align: left;
+  flex: 1; /* Take up remaining space in the flex container */
+  margin-left: 360px; /* Add left margin for separation */
+}
+
+.additionalParagraph p {
+  text-align: left;
+  font-size: 26px;
+  color: black;
+}
+
+.additionalParagraph2{
+  text-align: right;
+  flex: 1; /* Take up remaining space in the flex container */
+  margin-right: 250px; 
+  margin-top: -120px;
+}
+.additionalParagraph3{
+  text-align: left;
+  margin-left: 490px;
+}
+
+.additionalParagraph4 {
+  text-align: right; /* Align container content to the right */
+}
+
+.additionalParagraph4 p {
+  text-align: right; /* Align text within the <p> to the right */
+  margin-right: -420px; /* Add right margin for positioning */
+}
+
+.additionalParagraph4 strong {
+  display: block; /* Make <strong> tag a block-level element */
+  text-align: center; 
+  margin-top: -80px;/* Center-align text within <strong> tag */
+}
+
+.additionalParagraph5 {
+  text-align: right; /* Align container content to the right */
+}
+
+.additionalParagraph5 p {
+  text-align: right; /* Align text within the <p> to the right */
+  margin-right: -1120px; /* Add right margin for positioning */
+}
+
+.additionalParagraph5 strong {
+  display: block; /* Make <strong> tag a block-level element */
+  text-align: center; 
+  margin-top: -80px;/* Center-align text within <strong> tag */
+}
+.leftside{
+  margin-top: 20px;
+  text-align: left;
+  font-size: 10px;
+  color:red;
+  margin-left:360px ;
+}
+.storyImage:last-child {
+  margin-right: 0; 
+  margin-left: 20px; 
+}
+.largeImage {
+  width: 300px; 
+}
